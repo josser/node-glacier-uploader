@@ -1,0 +1,37 @@
+{
+  "name": "node-glacier-uploader",
+  "version": "0.0.1",
+  "description": "Simple multipart uploader for amazon glacier",
+  "main": "upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Chirkin <dmitry.chirkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.7.24",
+    "commander": "^2.9.0",
+    "debug": "^2.6.0",
+    "progress": "^1.1.8"
+  },
+  "bin": {
+    "glacier": "./bin/upload.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ],
+    "sourceType": "module",
+    "env": {
+      "node": true,
+      "es6": true
+    }
+  }
+}
