@@ -8,6 +8,10 @@
   },
   "author": "Dmitry Chirkin <dmitry.chirkin@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:josser/node-glacier-uploader.git"
+  },
   "dependencies": {
     "aws-sdk": "^2.7.24",
     "commander": "^2.9.0",
