@@ -13,6 +13,7 @@
     "url": "git@github.com:josser/node-glacier-uploader.git"
   },
   "dependencies": {
+    "async.queue": "^0.5.2",
     "aws-sdk": "^2.7.26",
     "commander": "^2.9.0",
     "debug": "^2.6.0",
