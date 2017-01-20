@@ -1,6 +1,6 @@
 {
   "name": "node-glacier-uploader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple multipart uploader for amazon glacier",
   "main": "upload.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git@github.com:josser/node-glacier-uploader.git"
   },
   "dependencies": {
-    "aws-sdk": "^2.7.24",
+    "aws-sdk": "^2.7.26",
     "commander": "^2.9.0",
     "debug": "^2.6.0",
     "progress": "^1.1.8"
@@ -36,6 +36,12 @@
     "env": {
       "node": true,
       "es6": true
+    },
+    "rules": {
+      "max-len": [
+        "error",
+        120
+      ]
     }
   }
 }
