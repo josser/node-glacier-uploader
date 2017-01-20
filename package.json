@@ -1,6 +1,6 @@
 {
   "name": "node-glacier-uploader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple multipart uploader for amazon glacier",
   "main": "upload.js",
   "scripts": {
