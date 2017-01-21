@@ -1,6 +1,6 @@
 {
   "name": "node-glacier-uploader",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Simple multipart uploader for amazon glacier",
   "main": "upload.js",
   "scripts": {
@@ -8,13 +8,16 @@
   },
   "author": "Dmitry Chirkin <dmitry.chirkin@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node" : ">=7.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:josser/node-glacier-uploader.git"
   },
   "dependencies": {
     "async.queue": "^0.5.2",
-    "aws-sdk": "^2.7.26",
+    "aws-sdk": "^2.7.27",
     "commander": "^2.9.0",
     "debug": "^2.6.0",
     "progress": "^1.1.8"
@@ -23,7 +26,7 @@
     "glacier": "./bin/upload.js"
   },
   "devDependencies": {
-    "eslint": "^3.13.1",
+    "eslint": "^3.14.0",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
