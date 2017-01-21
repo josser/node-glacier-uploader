@@ -6,7 +6,9 @@ Simple multipart uploader for AWS Glacier
 * aws-cli toolset for configuring AWS KEY and SECRET
 
 # Install
+```
 npm install -g node-glacier-uploader
+```
 
 You have to configure you aws-cli before use via:
 ```
