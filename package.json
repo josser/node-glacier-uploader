@@ -1,6 +1,6 @@
 {
   "name": "node-glacier-uploader",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Simple multipart uploader for amazon glacier",
   "main": "lib/uploader.js",
   "preferGlobal": true,
@@ -10,7 +10,7 @@
   "author": "Dmitry Chirkin <dmitry.chirkin@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node" : ">=7.0.0"
+    "node" : ">=6.0.0"
   },
   "repository": {
     "type": "git",
