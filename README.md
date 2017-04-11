@@ -1,7 +1,7 @@
 # node-glacier-uploader
 
 ![Dependencies Status](https://david-dm.org/josser/node-glacier-uploader.svg)
-
+[![NPM Downloads](https://img.shields.io/npm/dt/node-glacier-uploader.svg)](https://github.com/josser/node-glacier-uploader/issues)
 
 Simple multipart uploader for AWS Glacier
 
