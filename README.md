@@ -1,4 +1,8 @@
 # node-glacier-uploader
+
+![Dependencies Status](https://david-dm.org/josser/node-glacier-uploader.svg)
+
+
 Simple multipart uploader for AWS Glacier
 
 # Requirements:
