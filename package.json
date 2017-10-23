@@ -3,6 +3,9 @@
   "version": "0.4.0",
   "description": "Simple multipart uploader for amazon glacier",
   "main": "lib/uploader.js",
+  "keywords": [
+    "aws", "glacier", "aws-sdk", "amazon"
+  ],
   "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
