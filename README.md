@@ -1,6 +1,5 @@
 # node-glacier-uploader
 
-[![bitHound Dependencies](https://www.bithound.io/github/josser/node-glacier-uploader/badges/dependencies.svg)](https://www.bithound.io/github/josser/node-glacier-uploader/master/dependencies/npm)
 [![NPM Downloads](https://img.shields.io/npm/dt/node-glacier-uploader.svg)](http://npmjs.com/package/node-glacier-uploader)
 
 Simple multipart uploader for AWS Glacier
