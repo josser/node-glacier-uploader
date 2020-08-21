@@ -5,7 +5,7 @@
 Simple multipart uploader for AWS Glacier
 
 # Requirements:
-* NodeJS 6.x
+* NodeJS 10.x
 * aws-cli toolset for configuring AWS KEY and SECRET
 
 # Install
