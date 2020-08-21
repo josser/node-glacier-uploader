@@ -3,7 +3,7 @@ const program = require('commander');
 const uploader = require('../lib/uploader.js');
 
 program
-  .version('0.0.1');
+  .version('0.6.0');
 
 program
   .command('upload <file>')
