@@ -1,6 +1,6 @@
 # node-glacier-uploader
 
-[![NPM Downloads](https://img.shields.io/npm/dt/node-glacier-uploader.svg)](http://npmjs.com/package/node-glacier-uploader)
+![npm](https://img.shields.io/npm/dw/node-glacier-uploader)
 
 Simple multipart uploader for AWS Glacier
 
