@@ -1,6 +1,6 @@
 {
   "name": "node-glacier-uploader",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Simple multipart uploader for amazon glacier",
   "main": "lib/uploader.js",
   "keywords": [
@@ -24,20 +24,20 @@
   },
   "dependencies": {
     "async.queue": "^0.5.2",
-    "aws-sdk": "^2.738.0",
-    "commander": "^6.0.0",
-    "debug": "^4.1.1",
+    "aws-sdk": "^2.828.0",
+    "commander": "^6.2.1",
+    "debug": "^4.3.1",
     "progress": "^2.0.3"
   },
   "bin": {
     "glacier": "./bin/upload.js"
   },
   "devDependencies": {
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0"
   },
   "eslintConfig": {
     "extends": [
