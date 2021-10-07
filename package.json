@@ -24,20 +24,20 @@
   },
   "dependencies": {
     "async.queue": "^0.5.2",
-    "aws-sdk": "^2.828.0",
+    "aws-sdk": "^2.1002.0",
     "commander": "^6.2.1",
-    "debug": "^4.3.1",
+    "debug": "^4.3.2",
     "progress": "^2.0.3"
   },
   "bin": {
     "glacier": "./bin/upload.js"
   },
   "devDependencies": {
-    "eslint": "^7.17.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0"
+    "eslint-plugin-react": "^7.26.1"
   },
   "eslintConfig": {
     "extends": [
